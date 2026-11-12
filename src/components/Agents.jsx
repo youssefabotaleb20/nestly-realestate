@@ -18,7 +18,7 @@ function Stars({ rating }) {
 
 export default function Agents() {
   return (
-    <section className="bg-[#0D0D0D] py-24 px-6 md:px-10">
+    <section id="agents" className="scroll-mt-16 bg-[#0D0D0D] py-24 px-6 md:px-10">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         {/* Left */}
         <div>

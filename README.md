@@ -3,6 +3,9 @@
 A modern real estate listing platform built with **React + Vite + Tailwind CSS**,
 with a PHP backend for property search and enquiry handling.
 
+**Live demo:** https://youssefabotaleb20.github.io/nestly-realestate/ · Part of [Youssef Abotaleb's portfolio](https://youssefabotaleb20.github.io/Portfolio/)
+
+
 ## Stack
 - **Frontend:** React 18, Vite 5, Tailwind CSS 3, Framer Motion
 - **Backend:** PHP 8+ (properties + enquiry API)

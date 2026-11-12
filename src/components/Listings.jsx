@@ -24,7 +24,7 @@ export default function Listings() {
   })
 
   return (
-    <section id="listings" className="py-20 px-6 md:px-10 bg-[#F7F6F1]">
+    <section id="listings" className="scroll-mt-16 py-20 px-6 md:px-10 bg-[#F7F6F1]">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">

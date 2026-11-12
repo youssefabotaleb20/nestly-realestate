@@ -74,7 +74,7 @@ export default function PortfolioModal() {
               Explore the Demo
             </button>
             <a
-              href="https://linktr.ee/YoussefAbotaleb"
+              href="https://youssefabotaleb20.github.io/Portfolio/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 py-3 px-6 rounded-xl text-sm font-semibold text-center transition-all duration-200 border"
@@ -90,12 +90,12 @@ export default function PortfolioModal() {
           <p className="text-xs text-center mt-6" style={{ color: '#4A4A4A', opacity: 0.6 }}>
             Built by Youssef Abotaleb ·{' '}
             <a
-              href="https://linktr.ee/YoussefAbotaleb"
+              href="https://youssefabotaleb20.github.io/Portfolio/"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: '#1D6F42', textDecoration: 'underline' }}
             >
-              linktr.ee/YoussefAbotaleb
+              youssefabotaleb20.github.io/Portfolio
             </a>
           </p>
         </div>

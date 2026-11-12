@@ -1,6 +1,12 @@
 import { useState } from 'react'
 
-const links = ['Buy', 'Rent', 'Sell', 'Agents', 'Insights']
+const links = [
+  { label: 'Buy', href: '#listings' },
+  { label: 'Rent', href: '#listings' },
+  { label: 'Sell', href: '#agents' },
+  { label: 'Agents', href: '#agents' },
+  { label: 'Contact', href: '#contact' },
+]
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -16,9 +22,9 @@ export default function Navbar() {
         {/* Desktop nav */}
         <ul className="hidden md:flex gap-8 list-none">
           {links.map((l) => (
-            <li key={l}>
-              <a href="#" className="text-[#F7F6F1]/60 text-[0.85rem] font-instrument no-underline hover:text-[#F7F6F1] transition-colors duration-200">
-                {l}
+            <li key={l.label}>
+              <a href={l.href} className="text-[#F7F6F1]/60 text-[0.85rem] font-instrument no-underline hover:text-[#F7F6F1] transition-colors duration-200">
+                {l.label}
               </a>
             </li>
           ))}
@@ -47,8 +53,8 @@ export default function Navbar() {
       {mobileOpen && (
         <div className="md:hidden bg-[#0D0D0D] border-t border-white/10 px-6 py-5 flex flex-col gap-4">
           {links.map((l) => (
-            <a key={l} href="#" className="text-[#F7F6F1]/70 text-sm font-instrument no-underline hover:text-[#F7F6F1] transition-colors">
-              {l}
+            <a key={l.label} href={l.href} onClick={() => setMobileOpen(false)} className="text-[#F7F6F1]/70 text-sm font-instrument no-underline hover:text-[#F7F6F1] transition-colors">
+              {l.label}
             </a>
           ))}
           <button className="bg-[#1D6F42] text-white text-sm font-medium px-5 py-2.5 border-none cursor-pointer font-instrument mt-2">
