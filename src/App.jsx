@@ -8,7 +8,7 @@ import PortfolioModal from './components/PortfolioModal'
 
 export default function App() {
   return (
-    <div className="min-h-screen">
+    <div id="top" className="min-h-screen">
       <PortfolioModal />
       <Navbar />
       <Hero />
